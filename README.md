@@ -1,6 +1,13 @@
 # Node_Training_HW6
 Repository focusing on Studying node with the focus on  Quasi-Tagged Templates, Advanced Tagged Template,  Multiline Tagged Template, Implementing Debounce Function, Implementing Throttle Function, Currying Function Implementation
 
+## How to run
+- For **tasks 1,2,3 and 6** simply run node with the corresponding task file, for example?
+```terminal
+node task1.js
+```
+- Since **task4** and **task5** are using specific event listeners open the html files on your preferable browser then inspect the page and watch the console to observe the test of these tasks
+
 ### **Task 1: Quasi-Tagged Templates**
 
 - You are working on a localization library that uses tagged templates to handle multiple languages. Implement a function called *`localize`* that acts as a quasi-tagged template. The function should take a template string and an object containing language-specific translations. It should replace placeholders in the template string with the corresponding translations from the provided object.
